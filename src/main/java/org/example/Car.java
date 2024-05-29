@@ -8,12 +8,12 @@ public class Car {
     public int year_of_manufacture;
     public int speed;
 
-    public Car(String brand, String model, String color, int year_of_manufacture, int speed) {
+    public Car(String brand, String model, String color, int year_of_manufacture) {
         this.brand = brand;
         this.model = model;
         this.color = color;
         this.year_of_manufacture = year_of_manufacture;
-        this.speed = speed;
+        this.speed = 0;
     }
     public void starts(){
         System.out.println(model+" starts");
