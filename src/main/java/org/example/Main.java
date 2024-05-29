@@ -18,18 +18,21 @@ public class Main {
         Book book2 = new Book("222","League","M");
         Book book3 = new Book("333","Daylight","F");
 
-        Object[] array2 = {book1,book2,book3};
-        System.out.println("\n\n"+Arrays.toString(array2));
+
+
+        System.out.println("\n\n"+book1);
 
         Library library = new Library(3);
+
         library.addBook(book1);
         library.addBook(book2);
         library.addBook(book3);
 
-        library.listBooks();
+        System.out.println("\n\n"+library);
 
         library.removeBook(book2);
-        library.listBooks();
+
+        System.out.println("\n\n"+library);
 
     }
 }
