@@ -13,6 +13,7 @@ public class Car {
         this.model = model;
         this.color = color;
         this.year_of_manufacture = year_of_manufacture;
+        this.speed = speed;
     }
     public void starts(){
         System.out.println(model+" starts");
