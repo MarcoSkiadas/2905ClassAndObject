@@ -15,6 +15,18 @@ public class Car {
         this.year_of_manufacture = year_of_manufacture;
         this.speed = 0;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                ", year_of_manufacture=" + year_of_manufacture +
+                ", speed=" + speed +
+                '}';
+    }
+
     public void starts(){
         System.out.println(model+" starts");
     }

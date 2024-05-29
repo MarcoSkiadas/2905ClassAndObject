@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -11,5 +13,7 @@ public class Main {
         kaefer.accelerates(120);
         Person Thomas = new Person("Thomas",45,"Male");
         Thomas.introduction();
+        Object[] array = {Golf5,kaefer};
+        System.out.println(Arrays.toString(array));
     }
 }
