@@ -9,5 +9,7 @@ public class Main {
         Car kaefer = new Car("VW","Kaefer","Black",1990,100);
         kaefer.starts();
         kaefer.accelerates(120);
+        Person Thomas = new Person("Thomas",45,"Male");
+        Thomas.introduction();
     }
 }
